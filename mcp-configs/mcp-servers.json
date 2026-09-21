@@ -152,6 +152,14 @@
       "args": ["-y", "@playwright/mcp", "--browser", "chrome"],
       "description": "Browser automation and testing via Playwright"
     },
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "YOUR_FIGMA_API_KEY_HERE"
+      },
+      "description": "Figma design file access — read frames/components/styles for implementation. Requires your own Figma personal access token (Figma account settings > Security > Personal access tokens); never commit a real token here."
+    },
     "fal-ai": {
       "command": "npx",
       "args": ["-y", "fal-ai-mcp-server"],
