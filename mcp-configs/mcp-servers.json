@@ -134,6 +134,14 @@
       "args": ["-y", "@magicuidesign/mcp@latest"],
       "description": "Magic UI components"
     },
+    "magic-21st": {
+      "command": "npx",
+      "args": ["-y", "@21st-dev/magic@latest"],
+      "env": {
+        "API_KEY": "YOUR_21ST_DEV_API_KEY_HERE"
+      },
+      "description": "21st.dev Magic MCP — search 10,000+ React/Tailwind components and AI-assisted UI generation. Distinct from the unrelated 'magic' (@magicuidesign/mcp) entry above; do not enable both to avoid tool-name collisions. Requires your own key from 21st.dev/mcp (old 'Magic MCP' keys were invalidated). Sends requests to 21st.dev over the network."
+    },
     "memxus": {
       "type": "http",
       "url": "https://mcp.memxus.com/mcp",
@@ -151,6 +159,14 @@
       "command": "npx",
       "args": ["-y", "@playwright/mcp", "--browser", "chrome"],
       "description": "Browser automation and testing via Playwright"
+    },
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "YOUR_FIGMA_API_KEY_HERE"
+      },
+      "description": "Figma design file access — read frames/components/styles for implementation. Requires your own Figma personal access token (Figma account settings > Security > Personal access tokens); never commit a real token here."
     },
     "fal-ai": {
       "command": "npx",

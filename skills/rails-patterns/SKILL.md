@@ -393,7 +393,7 @@ end
 
 # Move to a service instead: side effects hidden in a callback
 # class User < ApplicationRecord
-#   after_create :send_welcome_email  # hard to opt out of, hard to test
+# after_create :send_welcome_email  # hard to opt out of, hard to test
 # end
 ```
 
