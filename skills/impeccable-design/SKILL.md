@@ -9,6 +9,8 @@ metadata:
 
 A closing quality gate for UI work. Run this after layout and motion are in place (see `emil-kowalski-design`) and before calling any UI task finished.
 
+> Not to be confused with `impeccable-plugin-reference`, this repo's pointer to the unrelated third-party `pbakaus/impeccable` Claude Code plugin. This skill here is a static, hand-written checklist — no hooks, no external install, no binaries.
+
 ## When to Activate
 
 - right before marking a UI/frontend task complete
