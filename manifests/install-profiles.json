@@ -79,6 +79,7 @@
         "hooks-runtime",
         "platform-configs",
         "framework-language",
+        "design-ui",
         "database",
         "workflow-quality",
         "skill-unified-memory",

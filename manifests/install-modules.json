@@ -1177,6 +1177,44 @@
       "defaultInstall": false,
       "cost": "heavy",
       "stability": "stable"
+    },
+    {
+      "id": "design-ui",
+      "kind": "skills",
+      "description": "UI/UX, visual design, and motion skills: layout/typography/motion craft, reference-driven structure, polish/QA checklists, and vetted external design tool references.",
+      "paths": [
+        "skills/emil-kowalski-design",
+        "skills/impeccable-design",
+        "skills/design-reference-taste",
+        "skills/web-design-guidelines",
+        "skills/image-to-code",
+        "skills/design-md-references",
+        "skills/motion-audit",
+        "skills/ui-ux-pro-max",
+        "skills/img2threejs-reference",
+        "skills/impeccable-plugin-reference"
+      ],
+      "targets": [
+        "claude",
+        "claude-project",
+        "cursor",
+        "antigravity",
+        "codex",
+        "opencode",
+        "codebuddy",
+        "joycode",
+        "qwen",
+        "zed"
+      ],
+      "dependencies": [
+        "rules-core",
+        "agents-core",
+        "commands-core",
+        "platform-configs"
+      ],
+      "defaultInstall": false,
+      "cost": "medium",
+      "stability": "stable"
     }
   ]
 }
