@@ -502,3 +502,7 @@ Before ANY production deployment:
 ---
 
 **Remember**: Security is not optional. One vulnerability can compromise the entire platform. When in doubt, err on the side of caution.
+
+## See Also
+
+- Skill: `security-and-hardening` (vendored 2026-10-10) - Addy Osmani's OWASP-oriented hardening workflow, with implementation patterns in its references. For Supabase/RLS specifics also load `supabase`.

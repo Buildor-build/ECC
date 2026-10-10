@@ -178,3 +178,7 @@ proposed → accepted → [deprecated | superseded by ADR-NNNN]
 
 - **Planner agent**: when the planner proposes architecture changes, suggest creating an ADR
 - **Code reviewer agent**: flag PRs that introduce architectural changes without a corresponding ADR
+
+## See Also
+
+- Skill: `documentation-and-adrs` (vendored 2026-10-10) - Addy Osmani's broader take: ADRs plus API docs, READMEs and changelogs. This skill keeps the automatic ADR log for Claude Code sessions.

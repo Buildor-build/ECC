@@ -714,3 +714,7 @@ git add node_modules/
 | Stash | `git stash push -m "message"` |
 | Undo last commit | `git reset --soft HEAD~1` |
 | Revert commit | `git revert HEAD` |
+
+## See Also
+
+- Skill: `git-workflow-and-versioning` (vendored 2026-10-10) - Addy Osmani's version adds splitting a messy working tree into atomic commits and PR hygiene. This skill keeps branching strategies and merge vs rebase.

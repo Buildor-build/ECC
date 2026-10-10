@@ -581,3 +581,7 @@ test('updates user', () => {
 ---
 
 **Remember**: Tests are not optional. They are the safety net that enables confident refactoring, rapid development, and production reliability.
+
+## See Also
+
+- Skill: `test-driven-development` (vendored 2026-10-10) - Addy Osmani's red-green-refactor loop (prove-it pattern for bugs, test sizes, when to mock). This skill sets the coverage bar and the full unit/integration/E2E workflow; use both together.
