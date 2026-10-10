@@ -1215,6 +1215,90 @@
       "defaultInstall": false,
       "cost": "medium",
       "stability": "stable"
+    },
+    {
+      "id": "engineering-lifecycle",
+      "kind": "skills",
+      "description": "Vendored, pinned engineering lifecycle skills (spec, plan, build, verify, review, ship) from addyosmani/agent-skills, plus a vetted reference for the security-guidance plugin.",
+      "paths": [
+        "skills/api-and-interface-design",
+        "skills/browser-testing-with-devtools",
+        "skills/ci-cd-and-automation",
+        "skills/code-review-and-quality",
+        "skills/code-simplification",
+        "skills/constraint-driven-development",
+        "skills/context-engineering",
+        "skills/debugging-and-error-recovery",
+        "skills/deprecation-and-migration",
+        "skills/documentation-and-adrs",
+        "skills/doubt-driven-development",
+        "skills/frontend-ui-engineering",
+        "skills/git-workflow-and-versioning",
+        "skills/idea-refine",
+        "skills/incremental-implementation",
+        "skills/interview-me",
+        "skills/observability-and-instrumentation",
+        "skills/performance-optimization",
+        "skills/planning-and-task-breakdown",
+        "skills/security-and-hardening",
+        "skills/shipping-and-launch",
+        "skills/source-driven-development",
+        "skills/spec-driven-development",
+        "skills/test-driven-development",
+        "skills/using-agent-skills",
+        "skills/security-guidance-plugin-reference"
+      ],
+      "targets": [
+        "claude",
+        "claude-project",
+        "cursor",
+        "antigravity",
+        "codex",
+        "opencode",
+        "codebuddy",
+        "joycode",
+        "qwen",
+        "zed"
+      ],
+      "dependencies": [
+        "rules-core",
+        "agents-core",
+        "commands-core",
+        "platform-configs"
+      ],
+      "defaultInstall": false,
+      "cost": "medium",
+      "stability": "stable"
+    },
+    {
+      "id": "supabase-postgres",
+      "kind": "skills",
+      "description": "Vendored, pinned Supabase skills: platform guidance (Auth, RLS, Storage, CLI, migrations) and Supabase-maintained Postgres best practices.",
+      "paths": [
+        "skills/supabase",
+        "skills/supabase-postgres-best-practices"
+      ],
+      "targets": [
+        "claude",
+        "claude-project",
+        "cursor",
+        "antigravity",
+        "codex",
+        "opencode",
+        "codebuddy",
+        "joycode",
+        "qwen",
+        "zed"
+      ],
+      "dependencies": [
+        "rules-core",
+        "agents-core",
+        "commands-core",
+        "platform-configs"
+      ],
+      "defaultInstall": false,
+      "cost": "medium",
+      "stability": "stable"
     }
   ]
 }

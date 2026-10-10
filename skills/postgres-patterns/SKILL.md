@@ -142,6 +142,8 @@ SELECT pg_reload_conf();
 - Agent: `database-reviewer` - Full database review workflow
 - Skill: `clickhouse-io` - ClickHouse analytics patterns
 - Skill: `backend-patterns` - API and backend patterns
+- Skill: `supabase-postgres-best-practices` - the upstream Supabase rules this quick reference summarises (vendored 2026-10-10, 30+ rule files); prefer it for anything beyond the cheat sheet
+- Skill: `supabase` - Supabase platform specifics (Auth, RLS, Storage, CLI)
 
 ---
 

@@ -80,6 +80,8 @@
         "platform-configs",
         "framework-language",
         "design-ui",
+        "engineering-lifecycle",
+        "supabase-postgres",
         "database",
         "workflow-quality",
         "skill-unified-memory",

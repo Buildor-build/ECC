@@ -522,3 +522,7 @@ Before shipping a new endpoint:
 - [ ] Response does not leak internal details (stack traces, SQL errors)
 - [ ] Consistent naming with existing endpoints (camelCase vs snake_case)
 - [ ] Documented (OpenAPI/Swagger spec updated)
+
+## See Also
+
+- Skill: `api-and-interface-design` (vendored 2026-10-10) - Addy Osmani's version covers module boundaries, type contracts and GraphQL as well as REST. This skill keeps the REST specifics (status codes, pagination, rate limits).
